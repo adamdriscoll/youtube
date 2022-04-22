@@ -1,6 +1,6 @@
 # YouTube Examples
 
-A collection of examples from my YouTube channel.
+A collection of examples from [my YouTube channel](https://www.youtube.com/channel/UCIrhSHyw-ySF4eQFkt6fQSA).
 
 ## PowerShell
 
