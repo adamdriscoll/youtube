@@ -6,9 +6,9 @@ A collection of examples from [my YouTube channel](https://www.youtube.com/chann
 
 - [Run PowerShell in .NET](https://youtu.be/9D-q3NMznjo) - [Example Code](/dotnet/Run%20PowerShell%20in%20.NET/)
 
-
 ## PowerShell
 
+- [Advanced PowerShell - Runspaces](https://youtu.be/WvxUuru_vhk) - [Example Code](/PowerShell/Advanced%20PowerShell%20-%20Runspaces/)
 - [Find Open Files in PowerShell](https://youtu.be/rPQTKQBTFLo) - [Example Code](/PowerShell/Find%20Open%20Files) 
 - [Run PowerShell When a Process is Started](https://youtu.be/K5wwXOsQONs) - [Example Code](/PowerShell/Run%20PowerShell%20When%20a%20Process%20is%20Started/) 
 - [Using PowerShell in GitHub Actions](https://youtu.be/FU7w7We_hh8) - [Example Code](https://github.com/adamdriscoll/pwsh-github-actions) 
