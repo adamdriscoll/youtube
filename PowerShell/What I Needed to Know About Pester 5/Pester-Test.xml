@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="15" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2022-04-24" time="20:00:25">
+  <environment cwd="C:\src\youtube\PowerShell\What I Needed to Know About Pester 5" clr-version="Unknown" nunit-version="2.5.8.0" machine-name="LAPTOP-496LAUK8" platform="Microsoft Windows 11 Pro|C:\WINDOWS|\Device\Harddisk0\Partition3" user-domain="LAPTOP-496LAUK8" user="adamr" os-version="10.0.22593" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="TestFixture" name="Pester" executed="True" result="Success" success="True" time="0.4897" asserts="0" description="Pester">
+    <results>
+      <test-suite type="TestFixture" name="C:\src\youtube\PowerShell\What I Needed to Know About Pester 5\1.tests.ps1" executed="True" result="Success" success="True" time="0.0851" asserts="0" description="C:\src\youtube\PowerShell\What I Needed to Know About Pester 5\1.tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Bananas" executed="True" result="Success" success="True" time="0.0188" asserts="0" description="Bananas">
+            <results>
+              <test-suite type="TestFixture" name="Bananas.Rotten" executed="True" result="Success" success="True" time="0.0134" asserts="0" description="Bananas.Rotten">
+                <results>
+                  <test-case description="is rotten" name="Bananas.Rotten.is rotten" time="0.0083" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="C:\src\youtube\PowerShell\What I Needed to Know About Pester 5\2.tests.ps1" executed="True" result="Success" success="True" time="0.1115" asserts="0" description="C:\src\youtube\PowerShell\What I Needed to Know About Pester 5\2.tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Bananas" executed="True" result="Success" success="True" time="0.0424" asserts="0" description="Bananas">
+            <results>
+              <test-suite type="TestFixture" name="Bananas.Rotten" executed="True" result="Success" success="True" time="0.0306" asserts="0" description="Bananas.Rotten">
+                <results>
+                  <test-case description="is rotten" name="Bananas.Rotten.is rotten" time="0.0113" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="is not rotten" name="Bananas.Rotten.is not rotten" time="0.0076" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="C:\src\youtube\PowerShell\What I Needed to Know About Pester 5\3.tests.ps1" executed="True" result="Success" success="True" time="0.0869" asserts="0" description="C:\src\youtube\PowerShell\What I Needed to Know About Pester 5\3.tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Bananas" executed="True" result="Success" success="True" time="0.0343" asserts="0" description="Bananas">
+            <results>
+              <test-suite type="TestFixture" name="Bananas.Rotten" executed="True" result="Success" success="True" time="0.0222" asserts="0" description="Bananas.Rotten">
+                <results>
+                  <test-case description="is rotten" name="Bananas.Rotten.is rotten" time="0.0072" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="C:\src\youtube\PowerShell\What I Needed to Know About Pester 5\4.tests.ps1" executed="True" result="Success" success="True" time="0.0741" asserts="0" description="C:\src\youtube\PowerShell\What I Needed to Know About Pester 5\4.tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Bananas" executed="True" result="Success" success="True" time="0.03" asserts="0" description="Bananas">
+            <results>
+              <test-suite type="TestFixture" name="Bananas.Rotten" executed="True" result="Success" success="True" time="0.0214" asserts="0" description="Bananas.Rotten">
+                <results>
+                  <test-case description="is rotten" name="Bananas.Rotten.is rotten" time="0.0124" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="C:\src\youtube\PowerShell\What I Needed to Know About Pester 5\6.tests.ps1" executed="True" result="Success" success="True" time="0.132" asserts="0" description="C:\src\youtube\PowerShell\What I Needed to Know About Pester 5\6.tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Bananas" executed="True" result="Success" success="True" time="0.0751" asserts="0" description="Bananas">
+            <results>
+              <test-suite type="ParameterizedTest" name="Bananas.is rotten at  days" executed="True" result="Success" success="True" time="0.0667" asserts="0" description="is rotten at  days">
+                <results>
+                  <test-case description="is rotten at  days" name="Bananas.is rotten at  days(1)" time="0.0051" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="is rotten at  days" name="Bananas.is rotten at  days(2)" time="0.0095" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="is rotten at  days" name="Bananas.is rotten at  days(3)" time="0.0058" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="is rotten at  days" name="Bananas.is rotten at  days(4)" time="0.008" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="is rotten at  days" name="Bananas.is rotten at  days(5)" time="0.0048" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="is rotten at  days" name="Bananas.is rotten at  days(6)" time="0.0046" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="is rotten at  days" name="Bananas.is rotten at  days(7)" time="0.0098" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="is rotten at  days" name="Bananas.is rotten at  days(8)" time="0.0044" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="is rotten at  days" name="Bananas.is rotten at  days(9)" time="0.0085" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="is rotten at  days" name="Bananas.is rotten at  days(10)" time="0.0061" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
