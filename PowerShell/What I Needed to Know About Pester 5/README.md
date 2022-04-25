@@ -1,4 +1,4 @@
-# [What I needed to know about Pester 5]()
+# [What I needed to know about Pester 5](https://youtu.be/iBgieFKACwI)
 
 Published: 4/25/2022
 
