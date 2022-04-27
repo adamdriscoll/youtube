@@ -9,6 +9,7 @@ A collection of examples from [my YouTube channel](https://www.youtube.com/chann
 ## PowerShell
 
 - [Advanced PowerShell - Runspaces](https://youtu.be/WvxUuru_vhk) - [Example Code](/PowerShell/Advanced%20PowerShell%20-%20Runspaces/)
+- [Create PowerShell Cmdlets for Command Line Tools with Crescendo ](https://youtu.be/c9m7ZdSwgkQ) - [Example Code](/PowerShell/Create%20PowerShell%20Cmdlets%20for%20Command%20Line%20Tools%20with%20Crescendo/)
 - [Find Open Files in PowerShell](https://youtu.be/rPQTKQBTFLo) - [Example Code](/PowerShell/Find%20Open%20Files) 
 - [Run PowerShell When a Process is Started](https://youtu.be/K5wwXOsQONs) - [Example Code](/PowerShell/Run%20PowerShell%20When%20a%20Process%20is%20Started/) 
 - [Using PowerShell in GitHub Actions](https://youtu.be/FU7w7We_hh8) - [Example Code](https://github.com/adamdriscoll/pwsh-github-actions) 
