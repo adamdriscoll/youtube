@@ -5,6 +5,7 @@ A collection of examples from [my YouTube channel](https://www.youtube.com/chann
 ## .NET 
 
 - [Creating Code-First gRPC Services with protobuf-net](https://youtu.be/BS5AeaMi5HA) - [Example Code](/dotnet/Code-First%20gRPC%20Services%20with%20protobuf-net/)
+- [Diagnose Memory Leaks in .NET Applications with WinDbg](https://youtu.be/V-bbGIb1cEo) - [Example Code](/dotnet/Diagnose%20Memory%20Leaks%20in%20.NET%20Applications%20with%20WinDbg/)
 - [Run PowerShell in .NET](https://youtu.be/9D-q3NMznjo) - [Example Code](/dotnet/Run%20PowerShell%20in%20.NET/)
 
 ## PowerShell
