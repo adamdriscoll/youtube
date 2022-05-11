@@ -11,6 +11,7 @@ A collection of examples from [my YouTube channel](https://www.youtube.com/chann
 ## PowerShell
 
 - [Advanced PowerShell - Runspaces](https://youtu.be/WvxUuru_vhk) - [Example Code](/PowerShell/Advanced%20PowerShell%20-%20Runspaces/)
+- [Building Binary PowerShell Cmdlets](https://youtu.be/4fgccFI-EHY) - [Example Code](/PowerShell/Building%20Binary%20PowerShell%20Cmdlets/src/)
 - [Create PowerShell Cmdlets for Command Line Tools with Crescendo ](https://youtu.be/c9m7ZdSwgkQ) - [Example Code](/PowerShell/Create%20PowerShell%20Cmdlets%20for%20Command%20Line%20Tools%20with%20Crescendo/)
 - [Find Open Files in PowerShell](https://youtu.be/rPQTKQBTFLo) - [Example Code](/PowerShell/Find%20Open%20Files) 
 - [Getting Started with oh-my-posh in PowerShell and Windows Terminal](https://youtu.be/OL9Mr4dzIWU) - [Example Code](/PowerShell/Getting%20Started%20with%20oh-my-posh%20in%20PowerShell%20and%20Windows%20Terminal/)

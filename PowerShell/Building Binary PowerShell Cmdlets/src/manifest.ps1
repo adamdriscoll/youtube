@@ -1,0 +1,1 @@
+New-ModuleManifest -Path .\PSHtml.psd1 -RootModule 'PSHtml.dll'
