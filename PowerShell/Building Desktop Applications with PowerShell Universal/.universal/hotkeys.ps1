@@ -1,0 +1,1 @@
+﻿New-PSUHotKey -Script "hotKey.ps1" -Credential "Default" -ModifierKeys "Alt" -Keys "S" -Page 'Services'

@@ -1,0 +1,2 @@
+﻿New-PSUDashboard -Name "d" -FilePath "dashboards\d\d.ps1" -BaseUrl "/dashboard" -Framework "UniversalDashboard:Latest" -Authenticated -SessionTimeout 0 -AutoDeploy 
+New-PSUDashboard -Name "Services" -FilePath "dashboards\Process Viewer\Process Viewer.ps1" -BaseUrl "/services" -Framework "UniversalDashboard:Latest" -Authenticated -SessionTimeout 0 -AutoDeploy -Credential "Default"
