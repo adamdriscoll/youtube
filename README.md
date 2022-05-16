@@ -17,6 +17,7 @@ A collection of examples from [my YouTube channel](https://www.youtube.com/chann
 - [Find Open Files in PowerShell](https://youtu.be/rPQTKQBTFLo) - [Example Code](/PowerShell/Find%20Open%20Files) 
 - [Getting Started with oh-my-posh in PowerShell and Windows Terminal](https://youtu.be/OL9Mr4dzIWU) - [Example Code](/PowerShell/Getting%20Started%20with%20oh-my-posh%20in%20PowerShell%20and%20Windows%20Terminal/)
 - [P\Invoke in PowerShell](https://youtu.be/IN1KmLsaP7w) - [Example Code](https://github.com/adamdriscoll/pinvoke)
+- [PowerShell Advanced Functions](https://youtu.be/pHkAP78KDJk) - [Example Code](/PowerShell/PowerShell%20Advanced%20Functions/)
 - [PowerShell Command Line Debugging](https://youtu.be/TCs8KmyZCgs) - [Example Code](/PowerShell/PowerShell%20Command%20Line%20Debugging/)
 - [PowerShell Performance: .NET Collections](https://youtu.be/FXZLYKrbivY) - [Example Code](/PowerShell/PowerShell%20Performance%20-%20.NET%20Collections/)
 - [PowerShell Performance: Strings and StringBuilder](https://youtu.be/W5stxz96FO0) - [Example Code](/PowerShell/PowerShell%20Performance%20-%20Strings%20and%20StringBuilder/)
