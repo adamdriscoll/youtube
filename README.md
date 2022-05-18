@@ -2,6 +2,14 @@
 
 A collection of examples from [my YouTube channel](https://www.youtube.com/channel/UCIrhSHyw-ySF4eQFkt6fQSA).
 
+## Issues
+
+Please file issues if you have any videos you'd like to see featured! 
+
+## PRs
+
+I'm open to pull requests. If I messed up the code during the video or messed up pushing it to GitHub, feel free to submit a PR. 
+
 ## .NET 
 
 - [Creating Code-First gRPC Services with protobuf-net](https://youtu.be/BS5AeaMi5HA) - [Example Code](/dotnet/Code-First%20gRPC%20Services%20with%20protobuf-net/)
