@@ -1,6 +1,6 @@
 # YouTube Examples
 
-A collection of examples from [my YouTube channel](https://www.youtube.com/channel/UCIrhSHyw-ySF4eQFkt6fQSA).
+A collection of examples from [my YouTube channel](https://www.youtube.com/channel/UCIrhSHyw-ySF4eQFkt6fQSA). Want to pick my brain? Suggest a new video! I'm open to suggestions. Did I mess something up? I'm totally open to PRs. 
 
 ## Issues
 
