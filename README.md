@@ -4,7 +4,7 @@ A collection of examples from [my YouTube channel](https://www.youtube.com/chann
 
 ## Issues
 
-Please file issues if you have any videos you'd like to see featured! What do you want to learn? What do you think I should mess with? 
+Please file issues if you have any videos you'd like to see featured! What do you want to learn? What do you think I should mess with? See something you like already listed in the issues? Please give it an upvote so I know what I should focus on. 
 
 ## PRs
 
