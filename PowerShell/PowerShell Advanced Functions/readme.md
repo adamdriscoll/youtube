@@ -8,63 +8,77 @@ function Get-MTGCard {
     [OutputType([MtgCard])]
     param(
         [Parameter(ParameterSetName = 'Named', Mandatory)]
-        [string]$Name,
+        [string[]]$Name,
         [Parameter(ParameterSetName = 'Id', Mandatory)]
-        [Guid]$Id
+        [Guid[]]$Id
     )
-
-    if ($PSCmdlet.ParameterSetName -eq 'Random') {
-        Invoke-RestMethod "$ScryfallApi/cards/random" 
+    
+    $restMethodParams = @{
+        Uri = "$ScryfallApi/cards/random"
     }
-    elseif ($PSCmdlet.ParameterSetName -eq 'Named') {
-        Invoke-RestMethod "$ScryfallApi/cards/named?fuzzy=$Name"
-    }    
-    elseif ($PSCmdlet.ParameterSetName -eq 'Id') {
-        Invoke-RestMethod "$ScryfallApi/cards/$Id"
-    }    
+
+    if ($PSCmdlet.ParameterSetName.Contains('Random')) {
+        Invoke-RestMethod @restMethodParams
+    }
+    else {
+        foreach ($card in $PSBoundParameters[$PSBoundParameters.Keys]) {
+            if ($PSBoundParameters.ContainsKey('Name')) {
+                $restMethodParams.Uri = "$ScryfallApi/cards/named?fuzzy=$card"
+            }
+            elseif ($PSBoundParameters.ContainsKey('Id')) {
+                $restMethodParams.Uri = "$ScryfallApi/cards/$card"
+            }
+            Invoke-RestMethod @restMethodParams
+        }
+    }
+    
 }
 
 function Find-MTGCard {
-    [CmdletBinding(SupportsPaging = $true, SupportsShouldProcess)]
+    [CmdletBinding(SupportsPaging, SupportsShouldProcess)]
     param(
         [Parameter(Mandatory)]
         $Query
     )
 
-    if (-not $PSCmdlet.ShouldContinue(($Query, "Are you sure you want to search Scryfall?"))) {
-        return
+    if ($PSCmdlet.ShouldProcess("$Query", "Find")) {
+        $Page = $PSCmdlet.PagingParameters.Skip + 1
+        Invoke-RestMethod "$ScryfallApi/cards/search?q=$Query&page=$Page"
     }
-
-    $Page = $PSCmdlet.PagingParameters.Skip + 1
-
-    Invoke-RestMethod "$ScryfallApi/cards/search?q=$Query&page=$Page"
 }
 
 function Show-MTGCard {
-    [CmdletBinding(SupportsShouldProcess = $true)]
+    [CmdletBinding(SupportsShouldProcess)]
     param(
-        [Parameter(ValueFromPipeline = $true)]$Card
+        [Parameter(ValueFromPipeline)]
+        $Card
     )
 
     Begin {
-        $Cards = @()
+       
     }
 
     Process {
-        $Cards += $Card
-    }
-
-    End {
-        $Cards | ForEach-Object {
-            Start-Process $Card.image_uris.large
+        foreach ($Item in $Card) {
+            if ($PSCmdlet.ShouldProcess("$($Item.image_uris.large)", "Opening")) {
+                Start-Process -FilePath $Item.image_uris.large
+            }
         }
+    }
+    End {
+
     }
 }
 
 Register-ArgumentCompleter -CommandName 'Get-MTGCard' -ParameterName 'Name' -ScriptBlock {
-    param($commandName, $parameterName, $wordToComplete, $commandAst, $fakeBoundParameters)
-
-    (Invoke-RestMethod "$ScryfallApi/cards/autocomplete?q=$wordToComplete").Data | ForEach-Object { "'$_'" }
+    param(
+        $commandName, 
+        $parameterName, 
+        $wordToComplete, 
+        $commandAst,
+        $fakeBoundParameters
+    )
+    (Invoke-RestMethod "$ScryfallApi/cards/autocomplete?q=$wordToComplete").Data | ForEach-Object { "'$PSItem'" }
 }
 
 class MtgCard {
