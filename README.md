@@ -1,6 +1,14 @@
-# YouTube Examples
+# [Adam Driscoll's YouTube Repo](https://www.youtube.com/c/AdamDriscoll/)
 
-A collection of examples from [my YouTube channel](https://www.youtube.com/channel/UCIrhSHyw-ySF4eQFkt6fQSA).
+A collection of examples from [my YouTube channel](https://www.youtube.com/channel/UCIrhSHyw-ySF4eQFkt6fQSA). Want to pick my brain? Suggest a new video! Did I mess something up? I'm totally open to PRs. 
+
+## Issues
+
+Please file issues if you have any videos you'd like to see featured! What do you want to learn? What do you think I should mess with? See something you like already listed in the issues? Please give it an upvote so I know what I should focus on. 
+
+## PRs
+
+I'm open to pull requests. If I messed up the code during the video or messed up pushing it to GitHub, feel free to submit a PR. 
 
 ## .NET 
 
