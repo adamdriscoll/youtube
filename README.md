@@ -15,6 +15,7 @@ A collection of examples from [my YouTube channel](https://www.youtube.com/chann
 - [Building Desktop Applications with PowerShell Universal](https://youtu.be/0Y83N1yA7XE) - [Example Code](/PowerShell/Building%20Desktop%20Applications%20with%20PowerShell%20Universal/)
 - [Calling REST APIs with Invoke-RestMethod in PowerShell](https://youtu.be/wpquzkKGxVM) - [Example Code](/PowerShell/Calling%20REST%20APIs%20with%20Invoke-RestMethod%20in%20PowerShell/)
 - [Create PowerShell Cmdlets for Command Line Tools with Crescendo ](https://youtu.be/c9m7ZdSwgkQ) - [Example Code](/PowerShell/Create%20PowerShell%20Cmdlets%20for%20Command%20Line%20Tools%20with%20Crescendo/)
+- [Creating PowerShell Notebooks with .NET Interactive Notebooks in Visual Studio Code](https://youtu.be/L1H9EouF8Xg) - [Example Code](/PowerShell/Creating%20PowerShell%20Notebooks%20with%20.NET%20Interactive%20Notebooks%20in%20Visual%20Studio%20Code/notebook.dib)
 - [Find Open Files in PowerShell](https://youtu.be/rPQTKQBTFLo) - [Example Code](/PowerShell/Find%20Open%20Files) 
 - [Getting Started with oh-my-posh in PowerShell and Windows Terminal](https://youtu.be/OL9Mr4dzIWU) - [Example Code](/PowerShell/Getting%20Started%20with%20oh-my-posh%20in%20PowerShell%20and%20Windows%20Terminal/)
 - [P\Invoke in PowerShell](https://youtu.be/IN1KmLsaP7w) - [Example Code](https://github.com/adamdriscoll/pinvoke)

@@ -1,0 +1,88 @@
+#!markdown
+
+# Creating PowerShell Notebooks with .NET Interactive Notebooks in Visual Studio Code
+
+# Markdown
+
+- You can include standard markdown
+- It works well 
+- And is fun
+
+![](https://ironmansoftware.com/img/ps-logo.png)
+
+[Ironman Software](https://ironmansoftware.com)
+
+#!markdown
+
+# State
+
+#!pwsh
+
+$Variable = "Hello world!"
+
+#!pwsh
+
+$Variable
+
+#!markdown
+
+# PowerShell Version
+
+#!pwsh
+
+$PSVersionTable
+
+#!markdown
+
+# dotnet Process
+
+#!pwsh
+
+Get-Process -ID $PID
+
+#!markdown
+
+# PSModulePath
+
+#!pwsh
+
+$ENV:PSModulePath
+
+#!markdown
+
+# An Example: REST APIs
+
+## Methods
+
+HTTP Status codes are useful when calling REST APIs. You can use `GET`, `POST`, `PUT` and `DELETE`.
+
+#!pwsh
+
+Invoke-RestMethod http://localhost:5000/methods -Method GET
+
+#!markdown
+
+## Status Codes
+
+Status codes tell you whether it worked or not. 
+
+- 200 - OK
+- 400 - Bad Request
+- 401 - Unauthorized
+- 418 - I am a teapot
+
+#!pwsh
+
+Invoke-RestMethod http://localhost:5000/statusCode/401 -Method GET
+
+#!markdown
+
+## Body 
+
+Sending JSON to a REST API.
+
+#!pwsh
+
+Invoke-RestMethod 'http://localhost:5000/json' -Method POST -Body (@{
+    Message = 'Welcome to the rodeo!'
+} | ConvertTo-Json) -ContentType 'application/json'
