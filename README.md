@@ -36,3 +36,7 @@ I'm open to pull requests. If I messed up the code during the video or messed up
 - [Using Application Insights to Log PowerShell Scripts](https://youtu.be/asE5uCy8zYI) - [Example Code](/PowerShell/Using%20Application%20Insights%20to%20Log%20PowerShell%20Scripts/)
 - [Using PowerShell in GitHub Actions](https://youtu.be/FU7w7We_hh8) - [Example Code](https://github.com/adamdriscoll/pwsh-github-actions) 
 - [What I Needed To Know About Pester 5](https://youtu.be/iBgieFKACwI) - [Example Code](/PowerShell/What%20I%20Needed%20to%20Know%20About%20Pester%205/)
+
+## Other 
+
+- [Build Fast, Static Websites and Host them for Free](https://youtu.be/kiL7xoCNrgQ)
