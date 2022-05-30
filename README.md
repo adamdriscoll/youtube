@@ -27,6 +27,7 @@ I'm open to pull requests. If I messed up the code during the video or messed up
 - [Creating Resilient PowerShell scripts with PSPolly](https://youtu.be/dEs3BUc2R7w) - [Example Code](/PowerShell/Creating%20Resilient%20PowerShell%20scripts%20with%20PSPolly/)
 - [Find Open Files in PowerShell](https://youtu.be/rPQTKQBTFLo) - [Example Code](/PowerShell/Find%20Open%20Files) 
 - [Getting Started with oh-my-posh in PowerShell and Windows Terminal](https://youtu.be/OL9Mr4dzIWU) - [Example Code](/PowerShell/Getting%20Started%20with%20oh-my-posh%20in%20PowerShell%20and%20Windows%20Terminal/)
+- [How to Publish a PowerShell Module to the PowerShell Gallery](https://youtu.be/TdWWUOJ4s7A) - [Example Code](https://github.com/adamdriscoll/animated-lamp)
 - [P\Invoke in PowerShell](https://youtu.be/IN1KmLsaP7w) - [Example Code](https://github.com/adamdriscoll/pinvoke)
 - [PowerShell Advanced Functions](https://youtu.be/pHkAP78KDJk) - [Example Code](/PowerShell/PowerShell%20Advanced%20Functions/)
 - [PowerShell Command Line Debugging](https://youtu.be/TCs8KmyZCgs) - [Example Code](/PowerShell/PowerShell%20Command%20Line%20Debugging/)
