@@ -41,3 +41,4 @@ I'm open to pull requests. If I messed up the code during the video or messed up
 ## Other 
 
 - [Build Fast, Static Websites and Host them for Free](https://youtu.be/kiL7xoCNrgQ)
+- [How to Create your own Cryptocurrency](https://youtu.be/zHdvoy-Jl7U)
